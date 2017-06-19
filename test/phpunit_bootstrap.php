@@ -70,3 +70,5 @@ $db->query("CREATE DATABASE connectiontest");
 $db->query("CREATE TABLE connectiontest.main SELECT 1 AS a, 2 AS b");
 $db->query("INSERT INTO connectiontest.main VALUES (5, 6)");
 $db->close();
+
+?>
